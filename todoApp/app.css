@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(115, 216, 169);
+}
+
+h1 {
+    color: white;
+    background-color: rgb(42, 5, 128);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.todo-form {
+    border: 4px solid purple;
+    width: 375px;
+    padding: 25px 20px;
+    background-color: yellow;
+    border-radius: 6px;
+    margin: 30px auto 10px auto;
+}
+
+.todo-form button{
+    margin-top: -3px;
+}
+
+.todo-item{
+    margin:9px 30x 5px 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(77, 5, 59);
+    font-size: large;
+    font-weight: bold;
+    padding: 8px 25px;
+    background-color: skyblue;
+    border: 1px solid #4e8aa5;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px #d8d8d8;
+    
+}
+
+.todo-item:hover {
+    font-weight: bold;
+    color:rgb(228, 85, 133);
+    box-shadow: 0 1px 2px whitesmoke;
+    border-left: 5px solid orange;
+    padding-left: 20px;
+
+}
